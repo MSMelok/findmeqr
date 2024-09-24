@@ -11,7 +11,7 @@
   --body-color: hsl(217deg 33.45% 70.64%);
   --body-font: "Poppins", sans-serif;
   --h3-font-size: 1.125rem;
-  --smaller-font-size: .75rem;
+  --smaller-font-size: 0.75rem;
 }
 
 /*=============== BASE ===============*/
@@ -104,7 +104,6 @@ img {
   .card__img {
     width: 100%;
   }
-  
 }
 
 /* Small tablets and large mobile devices (481px to 768px) */
@@ -127,5 +126,6 @@ img {
 
 /* Large desktop monitors (1251px and up) */
 @media (min-width: 1251px) {
-  .card {  }
+  .card {
+  }
 }
